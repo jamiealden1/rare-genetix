@@ -16,6 +16,11 @@ main {
 	margin: 0 auto;
 }
 
+
+/*******************
+       FONTS
+*******************/
+
 h1 {
 	font-weight:400;
 	font-size: 22px;
@@ -35,20 +40,9 @@ footer p {
 	padding-top:30px;
 }
 
- #signup {
- 	display:none;
- 	background-color:#546478;
- 	padding:20px 30px 30px 30px;
- }
-
- #fullname, #email {
- 	width:200px;
- 	height:25px;
- 	padding-left:10px;
- 	font-family: 'Questrial', sans-serif;
- 	font-size:15px;
- 	margin-bottom:10px;
- }
+/*******************
+      BUTTONS
+*******************/
 
 .buttons {
 	display:inline-block;
@@ -64,6 +58,29 @@ footer p {
 	cursor:pointer;
 }
 
+.buttons:hover {
+	color:#f685da;
+}
+
+/*******************
+        FORM
+*******************/
+
+ #signup {
+ 	display:none;
+ 	background-color:#546478;
+ 	padding:20px 30px 30px 30px;
+ }
+
+ #fullname, #email {
+ 	width:200px;
+ 	height:25px;
+ 	padding-left:10px;
+ 	font-family: 'Questrial', sans-serif;
+ 	font-size:15px;
+ 	margin-bottom:10px;
+ }
+
 .pink-button {
 	display:inline-block;
 	background-color:#ff33cc;
@@ -78,27 +95,21 @@ footer p {
 	cursor:pointer;
 }
 
-.buttons:hover {
-	color:#f685da;
-}
 
-/*button:focus + div#signup {
-	display:block;
-}*/
+/*******************
+       IMAGES
+*******************/
 
 img {
 	display:block;
 	margin:auto;
-	padding-top:65px;
-	padding-bottom:45px;
+	padding:65px 0 45px 0;
 }
 
-.center {
-	max-width:750px;
-	text-align:center;
-	margin:auto;
-}
 
+/*******************
+      DIVIDERS
+*******************/
 
 hr {
 	border:0;
@@ -106,4 +117,16 @@ hr {
 	width:210px;
 	margin:auto;
 }
+
+
+/*******************
+       MISC
+*******************/
+
+.center {
+	max-width:750px;
+	text-align:center;
+	margin:auto;
+}
+
 
