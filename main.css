@@ -35,14 +35,39 @@ footer p {
 	padding-top:30px;
 }
 
-#signup {
-	display: none;
-}
+ #signup {
+ 	display:none;
+ 	background-color:#546478;
+ 	padding:20px 30px 30px 30px;
+ }
+
+ #fullname, #email {
+ 	width:200px;
+ 	height:25px;
+ 	padding-left:10px;
+ 	font-family: 'Questrial', sans-serif;
+ 	font-size:15px;
+ 	margin-bottom:10px;
+ }
 
 .buttons {
 	display:inline-block;
 	background-color:#ffffff;
 	color:#ff33cc;
+	border:0;
+	width:180px;
+	font-family: 'Questrial', sans-serif;
+	font-size:20px;
+	padding:10px 0 10px 0;
+	margin:20px 10px 0 10px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.pink-button {
+	display:inline-block;
+	background-color:#ff33cc;
+	color:#ffffff;
 	border:0;
 	width:180px;
 	font-family: 'Questrial', sans-serif;
@@ -81,3 +106,4 @@ hr {
 	width:210px;
 	margin:auto;
 }
+

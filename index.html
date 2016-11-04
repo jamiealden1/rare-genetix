@@ -13,10 +13,13 @@
 	<main>
 		<img src="images/rg-logo.png" alt="Rare Genetix logo">
 		<div class="center">
-		<a class="buttons" href="mailto:info@raregenetix.com">Contact Us</a>
-		<button class="buttons">Stay Updated</button>
-		<div id="signup">This is a test</div>
-		</div>
+		<a class="buttons" id="contact" href="mailto:info@raregenetix.com">Contact Us</a>
+		<button class="buttons" id="update">Stay Updated</button>
+		<form id="signup" action="#" method="post">
+			<input id="fullname" name="fullname" type="text" placeholder="Full Name"/>
+			<input id="email" name="email" type="text" placeholder="Email"/>
+			<input type="submit" class="pink-button" value="Submit">
+		</form>
 		<h1 class="center">Rare Genetix is a discovery stage company developing transformative treatments for genetic diseases, including cancer, for vastly improved patient outcomes.</h1>
 		<p class="center">Our scientific founders are world-leading experts in RNA biology and disease, and have launched Rare to provide breakthrough treatments for patients with orphan disease &amp; cancers caused by RNA mutations.</p>
 		<hr>
@@ -24,5 +27,7 @@
 	<footer>
 		<p class="center">Rare Genetix  |  &copy; 2016 All rights reserved</p>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/form.js"></script>
 </body>
 </html>
