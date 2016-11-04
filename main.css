@@ -39,18 +39,22 @@ footer p {
 	display: none;
 }
 
-.style {
+.buttons {
 	display:inline-block;
 	background-color:#ffffff;
 	color:#ff33cc;
 	border:0;
-	width:200px;
+	width:180px;
 	font-family: 'Questrial', sans-serif;
-	font-size:25px;
-	padding:15px 0 15px 0;
+	font-size:20px;
+	padding:10px 0 10px 0;
 	margin:20px 10px 0 10px;
 	text-decoration:none;
 	cursor:pointer;
+}
+
+.buttons:hover {
+	color:#f685da;
 }
 
 /*button:focus + div#signup {
