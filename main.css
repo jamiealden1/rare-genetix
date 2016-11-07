@@ -71,7 +71,7 @@ footer p {
         FORM
 *******************/
 
- #signup, #confirm {
+ #ajaxform, #confirm {
  	display:none;
  	background-color:#546478;
  	padding:20px 30px 30px 30px;

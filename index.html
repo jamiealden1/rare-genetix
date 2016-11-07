@@ -7,7 +7,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-	<link rel="icon" type="image/png" href="images/favicon.png"/>
 </head>
 <body>
 	<main>
@@ -15,10 +14,10 @@
 		<div class="center">
 			<a class="buttons" id="contact" href="mailto:info@raregenetix.com">Contact Us</a>
 			<button class="buttons" id="update">Request Info</button>
-			<form id="signup" action="email.php" method="post">
-				<input id="fullname" name="fullname" type="text" placeholder="Full Name"/>
-				<input id="email" name="email" type="text" placeholder="Email"/>
-				<input id="submit" type="submit" class="pink-button" value="Submit">
+			<form name="ajaxform" id="ajaxform" action="ajax-form-submit.php" method="POST">
+				<input type="text" name="fullname"  id="fullname" placeholder="Full Name"/>
+				<input type="email" name="email"  id="email" placeholder="Email"/>
+				<input type="submit" class="pink-button" id="submit" value="Submit">
 			</form>
 			<div id="confirm">
 				<h2>Thank you</h2>
