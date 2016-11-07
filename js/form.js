@@ -4,4 +4,9 @@ $(document).ready(function(){
 		$('#update').hide();
 		$('#contact').hide();
 	});
+
+	$('#submit').click(function() {
+		$('#signup').hide();
+		$('#confirm').show();
+	});
 });
