@@ -1,12 +1,3 @@
-$(document).ready(function(){
-
-// Reveal Form
-	$('#update').click(function() {
-		$('#ajaxform').slideDown('300');
-		$('#update').hide();
-		$('#contact').hide();
-	});
-
 	$("#ajaxform").submit(function(e){
 		var postData = $(this).serializeArray();
 		var formURL = $(this).attr("action");
@@ -26,5 +17,16 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 
-	$("#ajaxform").submit();
+$(document).ready(function(){
+
+// Reveal Form
+	$('#update').click(function() {
+		$('#ajaxform').slideDown('300');
+		$('#update').hide();
+		$('#contact').hide();
+	});
+
+	$('#submit').click(function(){
+		$("#ajaxform").submit();
+	});
 });
